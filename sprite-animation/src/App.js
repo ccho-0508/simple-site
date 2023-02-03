@@ -1,5 +1,3 @@
-
-// import Spritesheet from 'react-responsive-spritesheet';
 import AddNote from './components/AddNote';
 import Notes from './components/Notes';
 import noteService from './services/notes.js'
