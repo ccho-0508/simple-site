@@ -10,9 +10,9 @@
     - ```docker-compose up``` (run where docker-compose.yaml is located)
     - Both containers (backend and frontend) will run
     - Go to localhost:3000
+- ALWAYS remember to stop and remove containers with ```docker-compose down``` command.
 
-- If changes are made to the django app or react app, make sure to run ```docker-compose build``` before running docker-compose up again. (takes a while to build the images)
-
+- If changes are made to the django app or react app, make sure to run ```docker-compose build``` before running docker-compose up again. 
 
 # Folders:
 ## sprite-animation (react app)
