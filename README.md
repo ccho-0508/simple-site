@@ -34,3 +34,4 @@
 - [Adding Custom Environment Variables](https://create-react-app.dev/docs/adding-custom-environment-variables/)
 - [Writing your first Django app, part 1](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 - [Build a REST API in 30 minutes with Django REST Framework](https://medium.com/swlh/full-stack-with-django-and-react-react-afae36017852)
+- [When to run a command in docker compose and when in dockerfile?](https://stackoverflow.com/questions/69036887/when-to-run-a-command-in-docker-compose-and-when-in-dockerfile)

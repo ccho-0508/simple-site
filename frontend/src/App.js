@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Different thing</h1>
+      <h1>Different ing</h1>
       <AddNote {...handlers} />
       <Notes notesShow={notes} /> 
     </div>

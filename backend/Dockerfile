@@ -18,5 +18,9 @@ RUN pip install django django-cors-headers
 
 RUN pip install djangorestframework
 
+RUN pip install python-decouple
+
+
 # when the container runs it'll be listening on port 8000
 EXPOSE 8000
+
