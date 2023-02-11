@@ -10,7 +10,7 @@ services:
     
     # save changes made to the app to your image (data will persist the next time the container is run)
     # ./backend is where to save persistent data, /backend is the directory we're grabbing the changes from
-    # volumes:
+    volumes:
       - ./backend:/backend
 
     # Handles the command used to run the project in the Docker container.  (look at resources for link to stackoverflow explaining when to run commands in Dockerfiles vs docker compose file)

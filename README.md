@@ -2,6 +2,9 @@
 
 # Simple Site: React + Django + SQLite
 
+# Description
+- Simple 'Note' App
+
 
 # How to Run
 - Make sure docker desktop is installed for non-Linux users!!! (Creates a linux vm so you can run containers)
