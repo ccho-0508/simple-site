@@ -3,10 +3,9 @@
 # Simple Site: React + Django + SQLite
 
 # Description
-- Simple 'Note' App
+- Simple 'Note' App run with
 
-
-# How to Run
+# How to Run with Docker Containers
 - Make sure docker desktop is installed for non-Linux users!!! (Creates a linux vm so you can run containers).
 - You need to build the images first with: ```docker-compose build``` (run where docker-compose.yaml is located).
     - Run the build commmand whenever you make changes to the code .
@@ -17,13 +16,15 @@
     - Go to localhost:3000
 - ALWAYS remember to stop and remove containers with ```docker-compose down``` command.
 
+
 # Folders:
-## sprite-animation (react app)
-- Run: ```npm start```
+## frontend
+- React app
+- Run without docker: ```npm start```
 
 ## backend
-- django api + sqlite database 
-- Run: ```python3 manage.py runserver```
+- Django api + SQLite database 
+- Run without docker: ```python3 manage.py runserver```
 
 ## tutorial-env
 - [Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html)
