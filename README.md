@@ -3,7 +3,9 @@
 # Simple Site: React + Django + SQLite
 
 # Description
-- Simple 'Note' App run with
+- Simple 'Note' App run with two containers:
+    - Frontend app w/ Reacct
+    - API and SQLite DB w/ Django
 
 # How to Run with Docker Containers
 - Make sure docker desktop is installed for non-Linux users!!! (Creates a linux vm so you can run containers).
