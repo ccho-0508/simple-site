@@ -7,7 +7,9 @@
 
 
 # How to Run
-- Make sure docker desktop is installed for non-Linux users!!! (Creates a linux vm so you can run containers)
+- Make sure docker desktop is installed for non-Linux users!!! (Creates a linux vm so you can run containers).
+- You need to build the images first with: ```docker-compose build``` (run where docker-compose.yaml is located).
+    - Run the build commmand whenever you make changes to the code .
 
 - Start the site with: 
     - ```docker-compose up``` (run where docker-compose.yaml is located)
