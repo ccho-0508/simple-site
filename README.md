@@ -18,6 +18,9 @@
     - Go to localhost:3000
 - ALWAYS remember to stop and remove containers with ```docker-compose down``` command.
 
+# Add secret key for Django backend
+- Create a ```.env``` file at /backend and add the key
+
 
 # Folders:
 ## frontend
